@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Woohasri Midde, an aspiring AI/ML and Generative AI Engineer."
+  />
+  <title>Woohasri Midde | AI/ML Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">WM<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Internships & Certifications</a>
+        <a href="#projects">Project</a>
+        <a href="#contact" class="nav-contact">Contact Me ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            OPEN TO ENTRY-LEVEL OPPORTUNITIES
+          </p>
+
+          <h1>
+            Hi, I'm <span class="gradient-text">Woohasri Midde.</span>
+            <br />
+            I build <span class="outline-text">AI-powered</span> solutions.
+          </h1>
+
+          <p class="hero-description">
+            B.Tech graduate in Artificial Intelligence and Machine Learning,
+            interested in building practical applications with Python, LLMs,
+            APIs, and Retrieval-Augmented Generation.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projects">
+              Explore My Project <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="#contact">
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/woohasri-ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >GitHub ↗</a>
+            <a
+              href="https://www.linkedin.com/in/woohasri-midde-a289b4297/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-glow"></div>
+
+          <div class="photo-frame">
+            <img
+              src="./profile.jpeg"
+              alt="Profile photo of Woohasri Midde"
+              class="profile-image"
+              onerror="this.hidden=true; document.getElementById('portraitFallback').hidden=false;"
+            />
+
+            <div class="profile-fallback" id="portraitFallback" hidden>
+              <span>WM</span>
+              <p>Add profile.jpeg to this folder</p>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✳</span>
+            <div>
+              <strong>AI / ML</strong>
+              <small>Learning & building</small>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-bottom">
+            <span class="floating-icon">⌘</span>
+            <div>
+              <strong>Python + GenAI</strong>
+              <small>Practical applications</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-border" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious mind. <span class="gradient-text">Practical builder.</span></h2>
+        </div>
+
+        <div class="about-card">
+          <p>
+            I'm a B.Tech graduate in Artificial Intelligence and Machine
+            Learning with a strong interest in Generative AI, machine learning,
+            and backend development. I enjoy understanding how AI systems work
+            and applying that knowledge to useful software.
+          </p>
+          <p>
+            My current project, DocuAI, explores document question answering
+            using retrieval-based techniques. I'm continuing to strengthen my
+            programming, API development, data handling, and AI engineering
+            skills while looking for an entry-level opportunity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-border" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-description">
+            Technologies and concepts I use or am building familiarity with.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">⌨</div>
+            <h3>Programming</h3>
+            <div class="tags">
+              <span>Python</span>
+              <span>SQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">◈</div>
+            <h3>AI/ML Fundamentals</h3>
+            <div class="tags">
+              <span>Machine Learning</span>
+              <span>Data Preprocessing</span>
+              <span>Feature Engineering</span>
+              <span>Model Evaluation</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">🧠</div>
+            <h3>Deep Learning & NLP</h3>
+            <div class="tags">
+              <span>Neural Network Fundamentals</span>
+              <span>NLP Fundamentals</span>
+              <span>Transformers (Conceptual)</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">✧</div>
+            <h3>Generative AI & LLMs</h3>
+            <div class="tags">
+              <span>LLM APIs</span>
+              <span>Prompt Engineering</span>
+              <span>Structured Outputs</span>
+              <span>Tool Calling</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">⌕</div>
+            <h3>RAG & Retrieval</h3>
+            <div class="tags">
+              <span>RAG Pipelines</span>
+              <span>Document Chunking</span>
+              <span>Embeddings</span>
+              <span>Vector Search</span>
+              <span>Source-Aware Responses</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">⌘</div>
+            <h3>Frameworks & APIs</h3>
+            <div class="tags">
+              <span>FastAPI</span>
+              <span>REST APIs</span>
+              <span>HTTP</span>
+              <span>JSON</span>
+              <span>Validation & Error Handling</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">▤</div>
+            <h3>Data & Databases</h3>
+            <div class="tags">
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>scikit-learn</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>FAISS</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">⚙</div>
+            <h3>Tools & Engineering</h3>
+            <div class="tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Docker</span>
+              <span>pytest</span>
+              <span>Unit Testing</span>
+              <span>API Testing</span>
+              <span>Debugging</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">✦</div>
+            <h3>Additional Tools</h3>
+            <div class="tags">
+              <span>LangChain</span>
+              <span>Streamlit</span>
+              <span>OpenAI API</span>
+              <span>AWS Fundamentals</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-border" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+          <h2>Education<span class="gradient-text">.</span></h2>
+          <p class="section-description">
+            My academic qualifications, from school to graduation.
+          </p>
+        </div>
+
+        <div class="education-list">
+          <article class="education-card featured-education">
+            <div class="education-marker">01</div>
+            <div class="education-content">
+              <div class="card-topline">
+                <span class="category-label">UNDERGRADUATE DEGREE</span>
+                <span class="date-label">Apr 2026</span>
+              </div>
+              <h3>B.Tech — Artificial Intelligence & Machine Learning</h3>
+              <p class="institution">
+                Usha Rama College of Engineering and Technology, Telaprolu
+              </p>
+              <div class="education-meta">
+                <span class="meta-pill">CGPA: 8.0 / 10</span>
+                <span class="meta-pill">AI & ML</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-marker">02</div>
+            <div class="education-content">
+              <div class="card-topline">
+                <span class="category-label">INTERMEDIATE</span>
+              </div>
+              <h3>Intermediate — MPC</h3>
+              <p class="institution">Mathematics, Physics and Chemistry</p>
+              <div class="education-meta">
+                <span class="meta-pill">Score: 70%</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-marker">03</div>
+            <div class="education-content">
+              <div class="card-topline">
+                <span class="category-label">SECONDARY SCHOOL</span>
+              </div>
+              <h3>SSC</h3>
+              <p class="institution">Secondary School Certificate</p>
+              <div class="education-meta">
+                <span class="meta-pill">GPA: 10.0 / 10</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS AND CERTIFICATIONS -->
+    <section class="section section-border" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LEARNING & DEVELOPMENT</p>
+          <h2>Internships <span class="gradient-text">&</span> Certifications</h2>
+          <p class="section-description">
+            Virtual internship experiences and additional learning.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <div class="experience-column">
+            <h3 class="subsection-title">
+              <span class="subsection-icon">↗</span>
+              Internships
+            </h3>
+
+            <article class="experience-card">
+              <div class="experience-symbol">AI</div>
+              <div>
+                <span class="category-label">VIRTUAL INTERNSHIP</span>
+                <h4>AI/ML Virtual Internship</h4>
+                <p>AICTE & EduSkills</p>
+              </div>
+            </article>
+
+            <article class="experience-card">
+              <div class="experience-symbol">☁</div>
+              <div>
+                <span class="category-label">VIRTUAL INTERNSHIP</span>
+                <h4>Cloud Virtual Internship</h4>
+                <p>AICTE & EduSkills</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="experience-column">
+            <h3 class="subsection-title">
+              <span class="subsection-icon">✧</span>
+              Certifications & Learning
+            </h3>
+
+            <article class="experience-card">
+              <div class="experience-symbol">DB</div>
+              <div>
+                <span class="category-label">ONLINE LEARNING</span>
+                <h4>Introduction to MongoDB</h4>
+                <p>MongoDB University</p>
+              </div>
+            </article>
+
+            <div class="learning-note">
+              <span class="note-icon">✦</span>
+              <p>
+                Continuously developing skills in AI/ML, Generative AI,
+                retrieval-based systems, and backend application development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="section section-border" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Featured <span class="gradient-text">Project</span></h2>
+          <p class="section-description">
+            A project demonstrating my interest in practical AI applications.
+          </p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-visual">
+            <div class="project-window">
+              <div class="window-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>DocuAI / Document Assistant</p>
+              </div>
+
+              <div class="document-illustration">
+                <div class="document-page">
+                  <div class="document-fold"></div>
+                  <span class="document-mark">AI</span>
+                  <i></i>
+                  <i></i>
+                  <i class="short-line"></i>
+                  <div class="document-search">⌕</div>
+                </div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="spark spark-one">✦</div>
+                <div class="spark spark-two">✧</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-topline">
+              <span class="project-type">AI / RAG APPLICATION</span>
+              <span class="project-number">PROJECT 01</span>
+            </div>
+
+            <h3>DocuAI — AI-Powered Document Intelligence</h3>
+
+            <p>
+              DocuAI is a document question-answering application designed to
+              help users ask questions about their documents and retrieve
+              relevant information. It explores retrieval-augmented generation
+              and source-aware responses.
+            </p>
+
+            <div class="tags project-tags">
+              <span>Python</span>
+              <span>RAG</span>
+              <span>LLMs</span>
+              <span>Document Retrieval</span>
+              <span>Streamlit</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                class="button button-primary"
+                href="https://ai-document-intelligence-rag-ha25okq7mgpfei5lz7rsf5.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/woohasri-ai/ai-document-intelligence-rag"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source Code ↗
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section section-border" id="languages">
+      <div class="container language-layout">
+        <div>
+          <p class="eyebrow">COMMUNICATION</p>
+          <h2>Languages<span class="gradient-text">.</span></h2>
+        </div>
+
+        <div class="language-items">
+          <div class="language-item">
+            <div>
+              <h3>English</h3>
+              <p>Professional Proficiency</p>
+            </div>
+            <span class="language-indicator">01</span>
+          </div>
+
+          <div class="language-item">
+            <div>
+              <h3>Telugu</h3>
+              <p>Native</p>
+            </div>
+            <span class="language-indicator">02</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Let's build something <span class="gradient-text">meaningful.</span></h2>
+        <p class="contact-description">
+          I'm looking for entry-level opportunities in AI/ML and Generative AI.
+          If you're hiring or would like to connect, feel free to reach out.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            class="button button-primary"
+            href="mailto:middewoohasri@gmail.com"
+          >
+            Email Me ↗
+          </a>
+          <a
+            class="button button-secondary"
+            href="https://www.linkedin.com/in/woohasri-midde-a289b4297/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Connect on LinkedIn ↗
+          </a>
+        </div>
+
+        <p class="email-text">middewoohasri@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="logo" href="#home">WM<span>.</span></a>
+      <p>Designed & built by Woohasri Midde</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("active");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+      });
+    });
+  </script>
+</body>
+</html>
